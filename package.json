@@ -1,0 +1,42 @@
+{
+  "name": "geo-logysto",
+  "version": "1.0.0",
+  "description": "Consutas de direcciones, para traer la latitug y logintud, con validacion de usuario JWT y conexion a api externas",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maular22/Geo-Logysto.git"
+  },
+  "author": "Maular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maular22/Geo-Logysto/issues"
+  },
+  "homepage": "https://github.com/maular22/Geo-Logysto#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jwt-simple": "^0.5.6",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
