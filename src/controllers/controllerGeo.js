@@ -1,4 +1,3 @@
-import { parse } from "dotenv";
 import https from "https";
 import jwt from "jwt-simple";
 import md5 from "md5";

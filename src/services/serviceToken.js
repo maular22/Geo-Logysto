@@ -1,6 +1,6 @@
-const jwt = require("jwt-simple");
+import jwt from "jwt-simple";
+import moment from "moment";
 const secret = "SecretGeoLogystoJW";
-const moment = require("moment");
 
 export const crearToken = function (user) {
   var payload = {
